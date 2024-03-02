@@ -1,5 +1,5 @@
 <template>
-    <div class="navbar bg-base-100 ">
+    <div class="navbar bg-gradient-to-r from-neutral-50 to-lime-500">
         <div class="navbar-start">
             <div class="dropdown">
                 <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
