@@ -6,11 +6,11 @@ import Main from './components/Main.vue';
 
 <template>
   <div class="flex flex-col h-screen justify-between ">
-    <Main class="   "></Main>
+    <Main class="  gap-y-7 "></Main>
     <!--<Footer class=" mt-auto"/>-->
-    <span id="contact-us" class=" pt-20 ">
+    <span id="contact-us" class="  ">
       <div class="hero h-full   bg-base-200">
-        <div class="hero-content flex-col md:flex-row md:mx-40   lg:flex-row-reverse">
+        <div class="hero-content flex-col-reverse md:flex-row md:mx-40   lg:flex-row-reverse">
           <div class="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
             <form class="card-body ">
               <div class="form-control">
@@ -49,7 +49,7 @@ import Main from './components/Main.vue';
                 <textarea class="textarea textarea-bordered" placeholder="Proposal..."></textarea>
               </div>
               <div class="form-control mt-6">
-                <button class="btn btn-primary">Send</button>
+                <button class="btn bg-lime-400">Send</button>
               </div>
             </form>
           </div>
