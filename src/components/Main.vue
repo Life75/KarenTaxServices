@@ -22,10 +22,10 @@
         </span>
 
         <span id="what-we-do"
-            class="flex flex-col md:flex-row   justify-center space-y-10 md:space-y-0 lg:gap-x-44 gap-x-5    ">
+            class="flex flex-col md:flex-row py-7 mx-5 align-middle items-center justify-center space-y-10 md:space-y-0 lg:gap-x-44 gap-x-5    ">
             <div id="individual">
                 <div
-                    class="card w-96 bg-base-100 shadow-xl rounded-2xl bg-gradient-to-br from-neutral-50 via-lime-100 to-lime-400  ">
+                    class="card w-96  bg-base-100 shadow-xl rounded-2xl bg-gradient-to-br from-neutral-50 via-lime-100 to-lime-400   ">
                     <div class="card-body">
                         <h2 class="text-center font-semibold text-2xl">Individual Taxes</h2>
                         <img src="https://images.pexels.com/photos/3954635/pexels-photo-3954635.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
@@ -56,11 +56,11 @@
         </span>
 
         <!--Testimonials here -->
-        <div id="testimonials" class="flex justify-center">
+        <div id="testimonials" class="flex justify-center align-middle items-center py-7">
             <span class="space-y-1">
                 <h1 class="text-4xl font-semibold text-center">Don't believe us?</h1>
                 <p class="text-center text-gray-500">Here's some testimonials of our recent clients!</p>
-                <div class="md:flex   gap-x-0 md:gap-x-7 pt-12 gap-y-10 md:gap-y-10">
+                <div class="flex flex-col md:flex-row gap-x-0 md:gap-x-7 pt-12   ">
                     <ReviewCard :name="`LaToyna`"
                         :body="`If you're looking for the best preparer tax service in town why don't you give Mrs. Karen Washington a try she is the best I promise you that you won't be disappointed. Please give her a try! I did!`"
                         :amount-of-stars="5" class="my-10 py-10"></ReviewCard>
@@ -76,7 +76,7 @@
         </div>
 
 
-        <div class="stats stats-vertical lg:stats-horizontal shadow justify-center">
+        <div class="stats stats-vertical lg:stats-horizontal shadow justify-center align-middle items-center mb-12 mx-auto">
             <div class="stat">
                 <div class="stat-title">Satisfaction Guarentee</div>
                 <div class="stat-value flex">
