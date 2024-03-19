@@ -63,12 +63,12 @@
                 <div class="flex flex-col md:flex-row gap-x-0 md:gap-x-7 pt-12   ">
                     <ReviewCard :name="`LaToyna`"
                         :body="`If you're looking for the best preparer tax service in town why don't you give Mrs. Karen Washington a try she is the best I promise you that you won't be disappointed. Please give her a try! I did!`"
-                        :amount-of-stars="5" class="my-10 py-10 "></ReviewCard>
-                    <ReviewCard :name="`LaToyna`"
-                        :body="`If you're looking for the best preparer tax service in town why don't you give Mrs. Karen Washington a try she is the best I promise you that you won't be disappointed. Please give her a try! I did!`"
                         :amount-of-stars="5" class="my-10 py-10"></ReviewCard>
-                    <ReviewCard :name="`LaToyna`"
-                        :body="`If you're looking for the best preparer tax service in town why don't you give Mrs. Karen Washington a try she is the best I promise you that you won't be disappointed. Please give her a try! I did!`"
+                    <ReviewCard :name="`Austyn`"
+                        :body="`I was able to get my taxes done super fast. I'm greatly satisfied trusting and leaving all my tax problems for her to solve without any hassle.`"
+                        :amount-of-stars="5" class="my-10 py-10"></ReviewCard>
+                    <ReviewCard :name="`Charlcey`"
+                        :body="`As someone who values efficiency, professionalism, and accuracy in financial matters, I am delighted to say that your services exceeded my expectations on all fronts.`"
                         :amount-of-stars="5" class="my-10 py-10 "></ReviewCard>
 
                 </div>
