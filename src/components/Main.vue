@@ -55,7 +55,7 @@
             </div>
         </span>
 
-        <!--Testimonials here -->
+        <!--Testimonials here, might recplace these  -->
         <div id="testimonials" class="flex justify-center align-middle items-center py-7">
             <span class="space-y-1">
                 <h1 class="text-4xl font-semibold text-center">Don't believe us?</h1>
@@ -63,7 +63,7 @@
                 <div class="flex flex-col md:flex-row gap-x-0 md:gap-x-7 pt-12   ">
                     <ReviewCard :name="`LaToyna`"
                         :body="`If you're looking for the best preparer tax service in town why don't you give Mrs. Karen Washington a try she is the best I promise you that you won't be disappointed. Please give her a try! I did!`"
-                        :amount-of-stars="5" class="my-10 py-10"></ReviewCard>
+                        :amount-of-stars="5" class="my-10 py-10 "></ReviewCard>
                     <ReviewCard :name="`LaToyna`"
                         :body="`If you're looking for the best preparer tax service in town why don't you give Mrs. Karen Washington a try she is the best I promise you that you won't be disappointed. Please give her a try! I did!`"
                         :amount-of-stars="5" class="my-10 py-10"></ReviewCard>

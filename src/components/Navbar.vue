@@ -5,22 +5,24 @@
                 <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                         stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h8m-8 6h16" />
                     </svg>
                 </div>
-                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                <ul tabindex="0"
+                    class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                     <li><a>Testimonials</a></li>
                     <li>
                         <a href="">Home</a>
                     </li>
                     <li><a>
-                            
+
                             Schedule an appointment</a></li>
                 </ul>
             </div>
             <a class="btn btn-ghost text-xl">
-                <div><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="green" class="bi bi-cash-coin mt-2 -rotate-45"
-                        viewBox="0 0 16 16">
+                <div><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="green"
+                        class="bi bi-cash-coin mt-2 -rotate-45" viewBox="0 0 16 16">
                         <path fill-rule="evenodd"
                             d="M11 15a4 4 0 1 0 0-8 4 4 0 0 0 0 8m5-4a5 5 0 1 1-10 0 5 5 0 0 1 10 0" />
                         <path
@@ -33,7 +35,7 @@
             </a>
         </div>
         <div class="navbar-center hidden lg:flex">
-            
+
         </div>
         <div class="navbar-end hidden lg:flex">
             <ul class="menu menu-horizontal px-2">
@@ -54,7 +56,15 @@
                         </svg>
                         Testimonials</a></li>
                 <li>
-                    <a href="">About Us</a>
+                    <a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-person-vcard" viewBox="0 0 16 16">
+                            <path
+                                d="M5 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4m4-2.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5M9 8a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4A.5.5 0 0 1 9 8m1 2.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5" />
+                            <path
+                                d="M2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zM1 4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H8.96q.04-.245.04-.5C9 10.567 7.21 9 5 9c-2.086 0-3.8 1.398-3.984 3.181A1 1 0 0 1 1 12z" />
+                        </svg>
+                        About Us</a>
                 </li>
 
             </ul>
