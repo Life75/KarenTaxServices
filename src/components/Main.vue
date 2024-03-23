@@ -4,8 +4,8 @@
         <span class="">
             <div class="hero bg-base-200 p-2 py-7">
                 <div class=" hero-content  flex-col md:flex-row    lg:flex-row-reverse">
-                    <img src="https://images.pexels.com/photos/1128318/pexels-photo-1128318.jpeg"
-                        class="md:max-w-sm   max-w-xs rounded-lg shadow-2xl" />
+                    <img src="../assets/headshot.jpeg"
+                        class="md:max-w-sm   max-w-xs rounded-lg shadow-2xl  " style="height: 430; width: 340" />
                     <div class=" ml-auto">
                         <h1 class="text-5xl font-bold">Taxes made simple!</h1>
                         <p class="py-6">
