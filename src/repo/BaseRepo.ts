@@ -1,8 +1,10 @@
 import { FirebaseApp, initializeApp } from "firebase/app";
 import { Firestore, getFirestore } from "firebase/firestore";
+import { Auth, getAuth } from "firebase/auth"
 
 export default class BaseRepo {
     protected db: Firestore 
+    protected auth: Auth
     constructor() {
         // Import the functions you need from the SDKs you need
         //import { getAnalytics } from "firebase/analytics";
@@ -24,5 +26,6 @@ export default class BaseRepo {
         // Initialize Firebase
         const app = initializeApp(firebaseConfig);
         this.db = getFirestore(app)
+        this.auth = getAuth(app)
     }
 }

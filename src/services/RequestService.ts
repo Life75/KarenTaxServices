@@ -10,4 +10,8 @@ export default class RequestService {
     createRequest(request: Request) {
         this.repo.createRequest(request)
     }
+
+    async getAllRequests(): Promise<[]> {
+        return await this.getAllRequests()
+    }
 }
