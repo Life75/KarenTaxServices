@@ -12,6 +12,6 @@ export default class RequestService {
     }
 
     async getAllRequests(): Promise<[]> {
-        return await this.getAllRequests()
+        return await this.repo.getAllRequests()
     }
 }
