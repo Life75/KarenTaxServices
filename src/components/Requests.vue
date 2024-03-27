@@ -1,8 +1,8 @@
 <template>
     <div class="flex flex-col gap-10 justify-center ">
-        <h1 class="text-center align-middle text-gray-600  font-semibold text-3xl py-5">Requests</h1>
+        <h1 class="text-center align-middle font-semibold text-3xl py-5 bg-lime-500 shadow-md text-white">Requests</h1>
         <div class="flex flex-col  justify-center" v-if="!loading" v-for="request in requests">
-            <RequestItem :request="request"/>
+            <RequestItem class="bg-gradient-to-br from-neutral-50 via-lime-100 to-lime-400 shadow-xl" :request="request"/>
         </div>
 
     </div>
